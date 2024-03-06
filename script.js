@@ -8,17 +8,17 @@ let choose_block = document.querySelector('.choose-for-js')
 btn_history.addEventListener('click',function(){
     history_block.style.display = 'flex'
     crafts_block.style.display = 'none'
-    choose_block.sryle.display = 'none'
+    choose_block.style.display = 'none'
 })
 
 btn_all.addEventListener('click',function(){
     crafts_block.style.display = 'flex'
     history_block.style.display = 'none'
-    choose_block.sryle.display = 'none'
+    choose_block.style.display = 'none'
 })
 
 btn_choose.addEventListener('click',function(){
     choose_block.style.display = 'flex'
     crafts_block.style.display = 'none'
-    history_block.sryle.display = 'none'
+    history_block.style.display = 'none'
 })

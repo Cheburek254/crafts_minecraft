@@ -1,0 +1,51 @@
+/* ЭТО НЕ ГОТОВАЯ ВЕРСИЯ*/
+
+body{
+    font-family: "Press Start 2P", sans-serif;
+}
+
+
+header{
+    border-radius: 0 0 50px 50px;
+    width: 2100px;
+    height: 500px;
+    background: #7e9d91;
+}
+.btn{
+    border-radius: 50px;
+    width: 400px;
+    height: 300px;
+    background: #12abb2;
+}
+p{
+    font-weight: 400;
+    font-size: 41px;
+    color: #000;
+}
+.icon-btn{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    font-weight: 400;
+    font-size: 100px;
+    color: #fff;
+}
+.main1{
+    border-radius: 50px;
+    width: 2100px;
+    height: 3236px;
+    background: #7e9d91;
+}
+.craft{
+    border-radius: 50px;
+    width: 1700px;
+    height: 800px;
+    background: #305038;
+}
+.left{
+    border-radius: 50px;
+    width: 600px;
+    height: 600px;
+    background: #d9d9d9;
+}
