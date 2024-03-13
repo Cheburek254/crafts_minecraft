@@ -11,14 +11,14 @@ body{
 
 header{
     border-radius: 0 0 50px 50px;
-    width: 95%;
+    width: 96.5%;
     height: 300px;
     background: #7e9d91;
-    margin:0;
+    margin: auto;
     display: flex;
     padding: 50px;
     flex-direction: row;
-    margin-left: 0.8%;
+    
 }
 .btn{
     border-radius: 50px;
@@ -51,7 +51,7 @@ h1{
 .main1{
     margin:0;
     border-radius: 50px;
-    width: 90%;
+    width: 100%;
     height: 3236px;
     background: #7e9d91;
     display: flex;
@@ -85,6 +85,18 @@ h1{
     align-items: center;
     flex-direction: column;
 }
+.craft-to-js{
+    display: flex;
+}
 .choose-for-js,.history-for-js{
     display: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-image: url("");
+    align-items: center;
+}
+.container{
+    display: flex;
 }
