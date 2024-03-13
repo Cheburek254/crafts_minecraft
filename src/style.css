@@ -59,7 +59,7 @@ h1{
 }
 .craft{
     border-radius: 50px;
-    width: 1700px;
+    width: 100%;
     height: 800px;
     background: #305038;
     display: flex;
