@@ -5,8 +5,10 @@ let history_block = document.querySelector('.history-for-js')
 let crafts_block = document.querySelector('.craft-to-js')
 let choose_block = document.querySelector('.choose-for-js')
 
-
-
+//let receips = {
+//   название предмета :    [imageurl,[список необходимых предмктов(0  если в этой ячейке предмета нет)]]
+//}
+let receips = {}
 btn_history.addEventListener('click',function(){
     history_block.style.display = 'flex'
     crafts_block.style.display = 'none'
