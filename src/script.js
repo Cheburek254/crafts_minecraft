@@ -5,7 +5,6 @@ let history_block = document.querySelector('.history-for-js')
 let crafts_block = document.querySelector('.craft-to-js')
 let choose_block = document.querySelector('.choose-for-js')
 
-console.log(5)
 
 
 btn_history.addEventListener('click',function(){
