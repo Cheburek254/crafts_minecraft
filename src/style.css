@@ -1,4 +1,4 @@
-/* ЭТО НЕ ГОТОВАЯ ВЕРСИЯ*/
+
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=PT+Serif:ital@1&family=Pacifico&family=Press+Start+2P&display=swap');
 
 body{
@@ -102,10 +102,25 @@ footer{
 }
 .row{
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-
+    flex-wrap: wrap;
+    width: 100%;
 }
 .icon{
-    width: 75px;
-    height: 75px;
+    width: 15%;
+    height: auto;
+}
+.crafts{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding:50px;
+}
+.block-img{
+    width: 80%;
+    height: auto;
+    border-radius: 5%;
 }

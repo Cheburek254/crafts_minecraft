@@ -8,7 +8,24 @@ let crafts = document.querySelector('.crafts')
 //let receips = {
 //   название предмета :    [imageurl,[список необходимых предмктов(0  если в этой ячейке предмета нет)]]
 //}
-let receips = {"bubu" : ["img\craftable\tile004.png"]}
+let receips = {"bubu" : ["img/craftable/tile004.png"],
+"bubu1" : ["img/craftable/tile004.png"],
+"bubu2" : ["img/craftable/tile004.png"],
+"bubu3" : ["img/craftable/tile004.png"],
+"bubu4" : ["img/craftable/tile004.png"],
+"bubu5" : ["img/craftable/tile004.png"],
+"bubu6" : ["img/craftable/tile004.png"],
+"bubu7" : ["img/craftable/tile004.png"],
+"bubu8" : ["img/craftable/tile004.png"],
+"bubu9" : ["img/craftable/tile004.png"],
+"bubu0" : ["img/craftable/tile004.png"],
+"bubu-" : ["img/craftable/tile004.png"],
+"bubu=" : ["img/craftable/tile004.png"],
+"bubu[" : ["img/craftable/tile004.png"],
+"bubup" : ["img/craftable/tile004.png"],
+"bubuo" : ["img/craftable/tile004.png"],
+"bubui" : ["img/craftable/tile004.png"],
+}
 btn_history.addEventListener('click',function(){
     history_block.style.display = 'flex'
     crafts_block.style.display = 'none'
@@ -26,31 +43,18 @@ btn_choose.addEventListener('click',function(){
     crafts_block.style.display = 'none'
     history_block.style.display = 'none'
 })
-let cnt2 = 1
-let cnt3 = Object.keys(receips).length
-let cnt = 0
-let check = true
+
+let a = crafts.querySelector('.row')
 Object.keys(receips).forEach(key => {
     //console.log(key, receips[key])
-    if (cnt == 6){
-        
-        cnt = 0
-        
-    }
     
-    if (cnt == 0){
-        crafts.innerHTML += `<div class = "row">`
+    
+    
+    a.innerHTML+=`<div class="icon"><img class="block-img" src="${receips[key]}"></div>`
+    
+    
         
-    }
-    let a = crafts.querySelector('.row')
-    cnt += 1
-    if(cnt<=6){
-        a.innerHTML+=`<div class="icon"><img class="block-img" src="${key[0]}"></div>`
-        check = true
-    }
-    else{
-        
-    }
+    
     
     
 })
