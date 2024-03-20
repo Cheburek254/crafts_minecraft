@@ -33,24 +33,24 @@ let check = true
 Object.keys(receips).forEach(key => {
     //console.log(key, receips[key])
     if (cnt == 6){
-        crafts.innerHTML += `</div>`
+        
         cnt = 0
-        check = false
+        
     }
     
     if (cnt == 0){
         crafts.innerHTML += `<div class = "row">`
         
     }
+    let a = crafts.querySelector('.row')
     cnt += 1
     if(cnt<=6){
-        crafts.innerHTML+=`<div class="icon"><img class="block-img" src="${key[0]}"></div>`
+        a.innerHTML+=`<div class="icon"><img class="block-img" src="${key[0]}"></div>`
         check = true
     }
-    cnt2 += 1
-    if (cnt2 == cnt3){
-        if (check == true){
-        crafts.innerHTML += `</div>`}
+    else{
+        
     }
+    
     
 })
