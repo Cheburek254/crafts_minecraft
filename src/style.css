@@ -100,3 +100,12 @@ footer{
 .container{
     display: flex;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.icon{
+    width: 75px;
+    height: 75px;
+}

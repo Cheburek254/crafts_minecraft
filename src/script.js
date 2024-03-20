@@ -8,7 +8,7 @@ let crafts = document.querySelector('.crafts')
 //let receips = {
 //   название предмета :    [imageurl,[список необходимых предмктов(0  если в этой ячейке предмета нет)]]
 //}
-let receips = {"bubu" : ["img\craftable\tile000.png"]}
+let receips = {"bubu" : ["img\craftable\tile004.png"]}
 btn_history.addEventListener('click',function(){
     history_block.style.display = 'flex'
     crafts_block.style.display = 'none'
@@ -26,22 +26,31 @@ btn_choose.addEventListener('click',function(){
     crafts_block.style.display = 'none'
     history_block.style.display = 'none'
 })
-
+let cnt2 = 1
+let cnt3 = Object.keys(receips).length
 let cnt = 0
+let check = true
 Object.keys(receips).forEach(key => {
     //console.log(key, receips[key])
-    if (cnt == 6 || cnt == 0){
+    if (cnt == 6){
+        crafts.innerHTML += `</div>`
+        cnt = 0
+        check = false
+    }
+    
+    if (cnt == 0){
         crafts.innerHTML += `<div class = "row">`
         
     }
     cnt += 1
     if(cnt<=6){
-        crafts.innerHTML+=`<div class="icon"><img class="block-img" src=${key[0]}></div>`
-
+        crafts.innerHTML+=`<div class="icon"><img class="block-img" src="${key[0]}"></div>`
+        check = true
     }
-    if (cnt == 6){
-        crafts.innerHTML += `</div>`
-        cnt = 0
+    cnt2 += 1
+    if (cnt2 == cnt3){
+        if (check == true){
+        crafts.innerHTML += `</div>`}
     }
     
 })
