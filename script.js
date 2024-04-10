@@ -11,23 +11,10 @@ let his = document.querySelector('.his')
 //let receips = {
 //   название предмета :    [imageurl,[список необходимых предмктов(0  если в этой ячейке предмета нет)]]
 //}
-let receips = {"bubu" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu1" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu2" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu3" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu4" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu5" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu6" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu7" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu8" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu9" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu0" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu-" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu=" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubu[" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubup" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubuo" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]],
-"bubui" : ["img/craftable/tile004.png",[0,0,0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,0,0]]
+let receips = {"crafting_table":["img/craftable/tile102.png",["img/craftable/tile004.png","img/craftable/tile004.png",0,"img/craftable/tile004.png","img/craftable/tile004.png",0,0,0,0]],
+"furnace":["img/craftable/tile105.png",["img/another/tile003.png","img/another/tile003.png","img/another/tile003.png","img/another/tile003.png",0,"img/another/tile003.png","img/another/tile003.png","img/another/tile003.png","img/another/tile003.png",]],
+"chest":["img/craftable/tile098.png",["img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",0,"img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png","img/craftable/tile004.png",]]
+
 }
 
 
